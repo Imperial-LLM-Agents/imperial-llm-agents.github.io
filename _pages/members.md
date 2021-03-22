@@ -34,6 +34,7 @@ social: false
 </tr>
 <tr border="0">
 <td width="150">
+<img src="../data/SeunghyeonKim.jpeg" width="150">
 </td>
 <td>
   Postdoctoral Associate
@@ -74,7 +75,7 @@ social: false
 </tr>
 <tr border="0">
 <td width="150">
-  
+  <img src="../data/EthanMuchnikWeb.jpg" width="150">
 </td>
 <td>
   Undergraduate student (Physics)
