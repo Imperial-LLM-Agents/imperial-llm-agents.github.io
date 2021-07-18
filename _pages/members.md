@@ -59,13 +59,31 @@ social: false
 <br>
 <table border="0" cellspacing="0" cellpadding="0">
 <tr border="0">
-<p><strong>Laura Troyer</strong></p>                                                                                                                                                                 </tr>
+<p><strong>Laura Troyer</strong></p>                                                                                                                                                                 
+</tr>
 <tr border="0">
 <td width="150">
   <img src="../data/LauraTroyer1web.jpg" width="150">
 </td>
 <td>
-  Graduate student (Physics)                                                                                                                                                                         <br>ltroyer2@illinois                                                                                                                                                                          </td>
+  Graduate student (Physics)                                                                                                                                                                         
+  <br>ltroyer2@illinois                                                                                                                                                                          
+</td>
+</tr>
+</table>
+<br>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr border="0">
+<p><strong>Yu-Huan Wang</strong></p>                                                                                                                                                                 
+</tr>
+<tr border="0">
+<td width="150">
+  <img src="../data/yuhuanWang.jpg" width="150">
+</td>
+<td>
+  Graduate student (Physics)
+  <br>yuhuanw2@illinois
+</td>
 </tr>
 </table>
 <br>
@@ -95,6 +113,21 @@ social: false
 <td>
   Undergraduate student (Physics)
   <br>kvaidya2@illinois
+</td>
+</tr>
+</table>
+<br>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr border="0"> 
+<p><strong>Tessa Sussman</strong></p>
+</tr>
+<tr border="0">
+<td width="150">
+  <img src="../data/TessaSussmanWeb.jpg" width="150">
+</td>
+<td>
+  Undergraduate student (Physics)
+  <br>tis2@illinois
 </td>
 </tr>
 </table>
