@@ -89,30 +89,28 @@ social: false
 <br>
 <table border="0" cellspacing="0" cellpadding="0">
 <tr border="0">
-<p><strong>Ethan Muchnik</strong></p>
+<p><strong>Maggie Liu</strong></p>
 </tr>
 <tr border="0">
 <td width="150">
-  <img src="../data/EthanMuchnikWeb.jpg" width="150">
 </td>
 <td>
   Undergraduate student (Physics)
-  <br>emuchni2@illinois
+  <br>yutingl4@illinois
 </td>
 </tr>
 </table>
 <br>
 <table border="0" cellspacing="0" cellpadding="0">
 <tr border="0"> 
-<p><strong>Kavya Vaidya</strong></p>
+<p><strong>Arsh Khetan</strong></p>
 </tr>
 <tr border="0">
 <td width="150">
-  <img src="../data/KavyaVaidya1.jpg" width="150">
 </td>
 <td>
   Undergraduate student (Physics)
-  <br>kvaidya2@illinois
+  <br>akhetan2@illinois
 </td>
 </tr>
 </table>
@@ -139,6 +137,11 @@ social: false
 <table border="0" cellspacing="0" cellpadding="0">
 <tr>
   <p><strong>Zichen Zach Wang</strong></p> 
-  - Undergraduate student, MCB and physics, 2019-2020
+  - Undergraduate student (MCB and physics), 2019-2020. Now @UCSD
+</tr>
+<br><br>
+<tr>
+  <p><strong>Kavya Vaidya</strong></p> 
+  - Undergraduate student (Physics), 2019-2021. Now @UChicago.
 </tr>
 </table>
