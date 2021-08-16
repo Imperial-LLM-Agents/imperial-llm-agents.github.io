@@ -59,6 +59,11 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
+  news_archive:
+    defaults:
+      layout: post
+    output: true
+    permalink: /news_archive/:path/
   projects:
     output: true
     permalink: /projects/:path/
