@@ -68,7 +68,7 @@ collections:
     output: true
     permalink: /projects/:path/
 
-news_limit: 7 
+news_limit: 3
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -80,14 +80,18 @@ highlighter: pygments
 
 # Includes & excludes
 include: ['_pages']
-exclude: [vendor]
-
+exclude:
+  - bin
+  - Gemfile
+  - Gemfile.lock
+  - vendor
 # Plug-ins
 plugins:
     - jekyll-email-protect
     - jekyll-paginate
     - jekyll/scholar
     - jemoji
+    - jekyll-gallery-generator
 
 # Jekyll-Scholar
 scholar:
@@ -113,6 +117,34 @@ scholar:
   details_link: Details
 
   query: "@*"
+
+# -----------------------------------------------------------------------------
+# Jekyll Gallery Generator
+# -----------------------------------------------------------------------------
+
+gallery:
+  dir: "gallery"   # Path to the gallery
+  symlink: false            # false: copy images into _site. true: create symbolic links (saves disk space)
+  title: "gallery"          # Title for gallery index page
+  title_prefix: "gallery: " # Title prefix for gallery pages. Gallery title = title_prefix + gallery_name
+  sort_field: "name"   # How to sort galleries on the index page.
+                            # Possible values are: title, date_time, best_image, name
+  galleries:
+    2021_Riggs:
+      best_image: 20210730.png
+      name: "2021, Happy Hour @ Riggs"
+    2021:
+      best_image: 20210702_181451.jpg
+      name: "2021, Kim Lab"
+    2020:
+      best_image: 20200804_175307.jpg
+      name: "2020, Kim Lab"
+    2019_CPLC_summer_school:
+      best_image: 20190730_190316.jpg
+      name: "2019, CPLC summer school"
+    2019:
+      best_image: 20190906.jpg
+      name: "2019, Kim Lab"
 
 # -----------------------------------------------------------------------------
 # Other settings
