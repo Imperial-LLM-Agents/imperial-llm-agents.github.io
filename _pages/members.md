@@ -93,6 +93,7 @@ social: false
 </tr>
 <tr border="0">
 <td width="150">
+  <img src="../data/maggieliu.jpg" width="150">
 </td>
 <td>
   Undergraduate student (Physics)
