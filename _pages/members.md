@@ -49,6 +49,7 @@ social: false
 </tr>
 <tr border="0">
 <td width="150">
+<img src="../data/AlburHassan.jpg" width="150">
 </td>
 <td>
   Graduate student (Physics)
@@ -89,6 +90,20 @@ social: false
 <br>
 <table border="0" cellspacing="0" cellpadding="0">
 <tr border="0">
+<p><strong>Brooke Ramsey</strong></p>                                                                                                                                                                 
+</tr>
+<tr border="0">
+<td width="150">
+</td>
+<td>
+  Graduate student (Biophysics)
+  <br>bramsey3@illinois
+</td>
+</tr>
+</table>
+<br>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr border="0">
 <p><strong>Maggie Liu</strong></p>
 </tr>
 <tr border="0">
@@ -98,35 +113,6 @@ social: false
 <td>
   Undergraduate student (Physics)
   <br>yutingl4@illinois
-</td>
-</tr>
-</table>
-<br>
-<table border="0" cellspacing="0" cellpadding="0">
-<tr border="0"> 
-<p><strong>Arsh Khetan</strong></p>
-</tr>
-<tr border="0">
-<td width="150">
-</td>
-<td>
-  Undergraduate student (Physics)
-  <br>akhetan2@illinois
-</td>
-</tr>
-</table>
-<br>
-<table border="0" cellspacing="0" cellpadding="0">
-<tr border="0"> 
-<p><strong>Tessa Sussman</strong></p>
-</tr>
-<tr border="0">
-<td width="150">
-  <img src="../data/TessaSussmanWeb.jpg" width="150">
-</td>
-<td>
-  Undergraduate student (Physics)
-  <br>tis2@illinois
 </td>
 </tr>
 </table>
