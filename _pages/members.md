@@ -94,6 +94,7 @@ social: false
 </tr>
 <tr border="0">
 <td width="150">
+  <img src="../data/BrookeRamsey.jpg" width="150">
 </td>
 <td>
   Graduate student (Biophysics)
@@ -104,15 +105,14 @@ social: false
 <br>
 <table border="0" cellspacing="0" cellpadding="0">
 <tr border="0">
-<p><strong>Maggie Liu</strong></p>
+<p><strong>Zach Xiong</strong></p>
 </tr>
 <tr border="0">
 <td width="150">
-  <img src="../data/maggieliu.jpg" width="150">
 </td>
 <td>
   Undergraduate student (Physics)
-  <br>yutingl4@illinois
+  <br>zelongx2@illinois
 </td>
 </tr>
 </table>
@@ -130,5 +130,10 @@ social: false
 <tr>
   <p><strong>Kavya Vaidya</strong></p> 
   - Undergraduate student (Physics), 2019-2021. Now @UChicago.
+</tr>
+<br><br>
+<tr>
+  <p><strong>Maggie Liu</strong></p> 
+  - Undergraduate student (Physics), 2021-2022. Now @UPenn.
 </tr>
 </table>
