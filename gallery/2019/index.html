@@ -6,14 +6,14 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Kim Lab</title>
+  <title>Kim Lab | gallery: 2019</title>
   <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
   <link rel="shortcut icon" href="/assets/img/favicon.ico">
 
   <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="canonical" href="/blog/">
+  <link rel="canonical" href="/gallery/2019/">
 </head>
 
 
@@ -112,32 +112,125 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="header-bar">
-  <h1></h1>
-  <h2></h2>
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">gallery: 2019</h1>
+    <h5 class="post-description"></h5>
+  </header>
+
+  <article class="post-content gallery: 2019 clearfix">
+    <p><a href="/gallery">&#8592;Back to full gallery</a></p>
+<br />
+<div class="noborder gallery-wrapper">
+    <table>
+        
+            
+            
+            <tr>
+            
+            <td width="50%">
+                <img class="gallery-image hover-shadow" src="thumbs/20190906.jpg" onclick="openModal();currentSlide(1)"/>
+            </td>
+            
+        
+            
+            
+            <td width="50%">
+                <img class="gallery-image hover-shadow" src="thumbs/20191101.JPG" onclick="openModal();currentSlide(2)"/>
+            </td>
+            
+            </tr>
+            
+        
+    </table>
 </div>
 
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+        
+            <div class="mySlides">
+                <div class="numbertext">1 / 2</div>
+                <img src="20190906.jpg">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">2 / 2</div>
+                <img src="20191101.JPG">
+            </div>
+        
 
-<ul class="post-list">
+        <!-- Next/previous controls -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- Caption text -->
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+        <!-- Thumbnail image controls -->
+        <!--
+        
+            <div class="column">
+                <img class="demo" src="thumbs/20190906.jpg" onclick="currentSlide(1)" alt="20190906.jpg">
+            </div>
+        
+            <div class="column">
+                <img class="demo" src="thumbs/20191101.JPG" onclick="currentSlide(2)" alt="20191101.JPG">
+            </div>
+        
+        -->
+    </div>
+</div>
+
+<script>
+// from https://www.w3schools.com/howto/howto_js_lightbox.asp
+// Open the Modal
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slides[slideIndex-1].style.display = "block";
+}
+</script>
+  </article>
+
   
-</ul>
 
+  
 
-<div class="pagination clearfix mb1 mt4">
-  <div class="left">
-    
-      <span class="pagination-item disabled">Newer</span>
-    
-  </div>
-  <div class="right">
-    
-      <span class="pagination-item disabled">Older</span>
-    
-  </div>
-  <div class="pagination-meta">Page  of </div>
+  
+
 </div>
-
-
 
       </div>
     </div>
