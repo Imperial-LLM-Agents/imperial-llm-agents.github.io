@@ -131,7 +131,7 @@ gallery:
                             # Possible values are: title, date_time, best_image, name
   galleries:
     2022:
-      best_image: 20220514_1427.png
+      best_image: 20220514_1427.jpg
       name: "2022"
     2021_Riggs:
       best_image: 20210730.png
